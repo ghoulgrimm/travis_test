@@ -23,7 +23,7 @@ namespace TestApp
                 {
                     new NavigationPage(new ItemsPage())
                     {
-                        Title = "Browse",
+                        Title = "success",
                         Icon = Device.OnPlatform<string>("tab_feed.png",null,null)
                     },
                     new NavigationPage(new AboutPage())
